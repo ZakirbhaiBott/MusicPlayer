@@ -73,12 +73,12 @@ You can also use /splay <song name> to play a song from Jio Saavn or /cplay <cha
 async def start(client, message):
     buttons = [
         [
-        InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/subin_works'),
-        InlineKeyboardButton('🤖 Other Bots', url='https://t.me/subin_works/122'),
+        InlineKeyboardButton('Main Channel', url='https://t.me/malayalam_movies_h'),
+        
     ],
     [
-        InlineKeyboardButton('👨🏼‍💻 Developer', url='https://t.me/subinps'),
-        InlineKeyboardButton('🧩 Source', url='https://github.com/subinps/MusicPlayer'),
+        InlineKeyboardButton('Group', url='https://t.me/malayayalies'),
+        InlineKeyboardButton('New Movies', url='https://t.me/joinchat/nTjmNdPYehUyYmE9'),
     ],
     [
         InlineKeyboardButton('👨🏼‍🦯 Help', callback_data='help'),
@@ -96,12 +96,12 @@ async def start(client, message):
 async def show_help(client, message):
     buttons = [
         [
-            InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/subin_works'),
-            InlineKeyboardButton('🤖 Other Bots', url='https://t.me/subin_works/122'),
+            InlineKeyboardButton('Main Channel', url='https://t.me/malayalam_movies_h'),
+            
         ],
         [
-            InlineKeyboardButton('👨🏼‍💻 Developer', url='https://t.me/subinps'),
-            InlineKeyboardButton('🧩 Source', url='https://github.com/subinps/MusicPlayer'),
+            InlineKeyboardButton('Group', url='https://t.me/malayayalies'),
+            InlineKeyboardButton('New Movies', url='https://t.me/joinchat/nTjmNdPYehUyYmE9'),
         ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
